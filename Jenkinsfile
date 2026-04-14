@@ -33,7 +33,7 @@ stage('Check Target Folder') {
        
        stage('Run Application') {
     steps {
-        sh 'java -jar target/MyMavenSeleniumApp03-1.0-SNAPSHOT.jar'
+        sh 'java -jar target/MyMavenSeleniumApp01-1.0-SNAPSHOT.jar'
     }
 }
         
